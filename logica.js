@@ -48,7 +48,7 @@ function Botao() {
                 break;
 
             case 6:
-                resultado.innerHTML = "Você está desesperado(a) né? ";
+                resultado.innerHTML = "Você está desesperado(a) para saber isso né?";
                 break;
 
             case 7:
