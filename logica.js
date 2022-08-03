@@ -1,4 +1,4 @@
-var musica = new Audio("musica.mp3");
+var musica = new Audio('musica.mp3');
 
     musica.play();
 
