@@ -4,7 +4,7 @@ var musica = new Audio('musica.mp3');
 
 var aux = 0;
 
-var input = document.getElementById('input').onkeydown = () => {
+var input = document.getElementById('input').onclick = () => {
     aux = aux + 1;
 
 
