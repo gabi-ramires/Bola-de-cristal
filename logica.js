@@ -1,23 +1,11 @@
 var musica = new Audio('musica.mp3');
 
-
-
 var aux = 0;
 
-var input = document.getElementById('input').onclick = () => {
-    aux = aux + 1;
+var input = document.getElementById('input')
+var btn = document.getElementById('btn')
 
-
-    if (aux == 1) {
-        var musica = new Audio('musica.mp3');
-
-        musica.play();
-    }
-
-    console.log(aux)
-}
-
-var btn = document.getElementById('btn').onclick = () => {
+function Botao() {
 
     var resultado = document.getElementById('resultado')
     resultado.setAttribute('style', 'display:visible')
@@ -80,6 +68,30 @@ var btn = document.getElementById('btn').onclick = () => {
                 break;
         }
     }
+
+
+}
+
+var input = document.getElementById('input').onclick = () => {
+    aux = aux + 1;
+
+    if (aux == 1) {
+        var musica = new Audio('musica.mp3');
+
+        musica.play();
+    }
+
+    console.log(aux)
+    
+}
+var input = document.getElementById('input').onkeydown = () => {
+
+        //SE TECLOU ENTER (13)
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            Botao();
+            
+        }
 
 
 }
