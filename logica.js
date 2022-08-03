@@ -17,7 +17,7 @@ function Botao() {
 
         var escolha = ""
 
-        escolha = Math.ceil((Math.floor(Math.random() * 15) + 0));
+        escolha = Math.ceil((Math.floor(Math.random() * 17) + 0));
 
 
         console.log(escolha)
@@ -85,6 +85,14 @@ function Botao() {
 
             case 15:
                 resultado.innerHTML = "Isso jamais acontecerá";
+                break;
+
+            case 16:
+                resultado.innerHTML = "O que tudo indica é que sim";
+                break;
+
+            case 17:
+                resultado.innerHTML = "O que tudo indica é que não";
                 break;
 
 
