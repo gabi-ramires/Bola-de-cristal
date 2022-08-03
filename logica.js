@@ -1,6 +1,4 @@
-var musica = new Audio("musica.mp3");
 
-musica.play();
 
 var input = document.getElementById('input').onkeydown = () => {
     var musica = new Audio("musica.mp3");
