@@ -17,7 +17,7 @@ function Botao() {
 
         var escolha = ""
 
-        escolha = Math.ceil((Math.floor(Math.random() * 10) + 0));
+        escolha = Math.ceil((Math.floor(Math.random() * 15) + 0));
 
 
         console.log(escolha)
@@ -66,6 +66,29 @@ function Botao() {
             case 10:
                 resultado.innerHTML = "Claro que sim !!!";
                 break;
+
+            case 11:
+                resultado.innerHTML = "Você sabe que a resposta é SIM";
+                break;
+
+            case 12:
+                resultado.innerHTML = "Você sabe que a resposta é NÃO";
+                break;
+
+            case 13:
+                resultado.innerHTML = "Bem que você gostaria né?";
+                break;
+
+            case 14:
+                resultado.innerHTML = "É bem provável que isso acontença";
+                break;
+
+            case 15:
+                resultado.innerHTML = "Isso jamais acontecerá";
+                break;
+
+
+
         }
     }
 
@@ -82,16 +105,16 @@ var input = document.getElementById('input').onclick = () => {
     }
 
     console.log(aux)
-    
+
 }
 var input = document.getElementById('input').onkeydown = () => {
 
-        //SE TECLOU ENTER (13)
-        if (event.keyCode === 13) {
-            event.preventDefault();
-            Botao();
-            
-        }
+    //SE TECLOU ENTER (13)
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        Botao();
+
+    }
 
 
 }
