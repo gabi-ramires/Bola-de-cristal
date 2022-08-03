@@ -1,6 +1,21 @@
 var musica = new Audio('musica.mp3');
 
-    musica.play();
+
+
+var aux = 0;
+
+var input = document.getElementById('input').onkeydown = () => {
+    aux = aux + 1;
+
+
+    if (aux == 1) {
+        var musica = new Audio('musica.mp3');
+
+        musica.play();
+    }
+
+    console.log(aux)
+}
 
 var btn = document.getElementById('btn').onclick = () => {
 
