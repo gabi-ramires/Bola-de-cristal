@@ -1,10 +1,6 @@
-
-
-var input = document.getElementById('input').onkeydown = () => {
-    var musica = new Audio("musica.mp3");
+var musica = new Audio("musica.mp3");
 
     musica.play();
-}
 
 var btn = document.getElementById('btn').onclick = () => {
 
