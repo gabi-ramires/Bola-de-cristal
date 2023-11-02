@@ -25,7 +25,7 @@ Divirta-se fazendo perguntas à Bola de Cristal e recebendo respostas misteriosa
 
 ## Screenshots
 
-![Screenshot da Bola de Cristal](print2.png)
+![Screenshot da Bola de Cristal](print.png)
 
 ## Contribuições 💪
 
