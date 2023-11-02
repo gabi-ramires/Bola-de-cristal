@@ -4,7 +4,7 @@ Bem-vindo à Bola de Cristal, uma aplicação simples que permite ao usuário fa
 
 ## Como Funciona 🕹️
 
-1. Acesse a [Bola de Cristal](https://boladecristal.herokuapp.com/).
+1. Acesse a [Bola de Cristal](http://boladecristal.epizy.com/).
 
 2. Digite uma pergunta de sim ou não na caixa de texto e pressione "Perguntar".
 
